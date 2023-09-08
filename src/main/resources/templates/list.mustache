@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot message list</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <td>Name</td>
+        <td>Message</td>
+    </tr>
+    </thead>
+    <tbody>
+        {{#msg}}
+                <tr>
+                    <td>{{user}}</td>
+                    <td>{{message}}</td>
+                </tr>
+        {{/msg}}
+    </tbody>
+
+</table>
+
+
+</body>
+</html>
